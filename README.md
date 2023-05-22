@@ -1,2 +1,2 @@
-# estudio-webapp
-Um website de estúdio desenvolvido em Python Django
+# Estúdio Web App
+## Uma aplicação web de estúdio desenvolvida na linguagem de programação Python usando o framework Django.
