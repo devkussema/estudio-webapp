@@ -1,0 +1,154 @@
+{% extends "layout.html" %}
+{% load static %}
+
+{% block 'titulo' %}Contato{% endblock%}
+
+{% block 'conteudo' %}
+    <div class="social-sidebar-area">
+
+        <div class="social-info-area">
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i> <span>Facebook</span></a>
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i> <span>Twitter</span></a>
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i> <span>Pinterest</span></a>
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Behance"><i class="fa fa-behance" aria-hidden="true"></i> <span>Behance</span></a>
+        </div>
+    </div>
+
+    <section class="contact-area section_padding_100 mt-100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    <div class="contact-heading-text text-center mb-100">
+                        <span></span>
+                        <h2>Please get in touch</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lectus eu felis semper finibus ac eget ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate id justo quis facilisis. Vestibulum id orci ligula. Sed tempor, nunc ut sodales pulvinar, mauris ante euismod magna, at elementum lectus leo sed enim. Praesent dictum suscipit tincidunt. Nulla facilisi. Aenean in mollis orci. Ut interdum vulputate ante a egestas. Pellentesque varius purus malesuada arcu semper vehicula. </p>
+                    </div>
+                </div>
+                
+                <div class="col-10">
+                    <div class="contact-form-area">
+                        <form action="#" method="post">
+                            <div class="row">
+                                <div class="col-12 col-md-4">
+                                    <input type="text" class="form-control" name="name" id="name" placeholder="Your Name">
+                                </div>
+                                <div class="col-12 col-md-4">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email">
+                                </div>
+                                <div class="col-12 col-md-4">
+                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                                </div>
+                                <div class="col-12">
+                                    <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <button type="submit" class="btn studio-btn mt-3"><img src={% static "img/core-img/logo-icon.png" %} alt=""> Send</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="map-area">
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-10">
+                    <div id="googleMap"></div>
+                    
+                    <div class="contact-core-info d-flex align-items-center wow fadeInLeftBig" data-wow-delay="1s" data-wow-duration="1000ms">
+                        <div class="contactInfo">
+                            <img src={% static "img/core-img/logo.png" %} alt="">
+                            
+                            <div class="single-footer-content">
+                                <img src={% static "img/core-img/map.png" %} alt="">
+                                <a href="#">Blvd Libertad, 34 m05200 Arévalo</a>
+                            </div>
+                            
+                            <div class="single-footer-content">
+                                <img src={% static "img/core-img/smartphone.png" %} alt="">
+                                <a href="#">0034 37483 2445 322</a>
+                            </div>
+                            
+                            <div class="single-footer-content">
+                                <img src={% static "img/core-img/envelope-2.png" %} alt="">
+                                <a href="#">hello@company.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="follow-me-instagram-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-11 ml-auto">
+                    <div class="follow-me-title">
+                        <h5>Follow me @ Instagram</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="instagram-feeds-area owl-carousel">
+            <div class="single-instagram-feeds">
+                <img src={% static "img/bg-img/i1.jpg" %} alt="">
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+            <div class="single-instagram-feeds">
+                <img src={% static "img/bg-img/i2.jpg" %} alt="">
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+            <div class="single-instagram-feeds">
+                <img src={% static "img/bg-img/i3.jpg" %} alt="">
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+            <div class="single-instagram-feeds">
+                <img src={% static "img/bg-img/i4.jpg" %} alt="">
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+            <div class="single-instagram-feeds">
+                <img src={% static "img/bg-img/i5.jpg" %} alt="">
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+            <div class="single-instagram-feeds">
+                <img src={% static "img/bg-img/i6.jpg" %} alt="">
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+            <div class="single-instagram-feeds">
+                <img src={% static "img/bg-img/i7.jpg" %} alt="">
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer-area">
+        <div class="container-fluid h-100">
+            <div class="row h-100">
+                <div class="col-12 h-100">
+                    <div class="footer-content h-100 d-md-flex align-items-center justify-content-between">
+                        
+                        <div class="single-footer-content">
+                            <img src={% static "img/core-img/map.png" %} alt="">
+                            <a href="#">Blvd Libertad, 34 m05200 Arévalo</a>
+                        </div>
+                        <!-- Single Footer Content -->
+                        <div class="single-footer-content">
+                            <img src={% static "img/core-img/smartphone.png" %} alt="">
+                            <a href="#">0034 37483 2445 322</a>
+                        </div>
+                        <!-- Single Footer Content -->
+                        <div class="single-footer-content">
+                            <img src={% static "img/core-img/envelope-2.png" %} alt="">
+                            <a href="#">hello@company.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+{% endblock %}
